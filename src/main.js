@@ -10,13 +10,13 @@ const btnRestar = document.getElementById('btnR');
 btnSumar.addEventListener('click', () => {
   const a = parseInt(numberOne.value);
   const b = parseInt(numbreTwo.value);
-  result = suma(a,b);
+  const result = suma(a,b);
   document.getElementById('result').innerHTML= result;
 });
 
 btnRestar.addEventListener('click', () => {
   const a = parseInt(numberOne.value);
   const b = parseInt(numbreTwo.value);
-  result = resta(a,b);
+  const result = resta(a,b);
   document.getElementById('result').innerHTML= result;
 });
